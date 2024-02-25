@@ -3,3 +3,84 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: sans-serif;
+    background-color: #E4F6F8;
+}
+
+/* Estilos para el contenedor principal */
+.container-fluid {
+    padding: 1rem; 
+}
+
+/* Estilos para los campos de entrada */
+input.form-control {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+/* Estilos para el botón Agregar tarea */
+button#botoncito1 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease; 
+}
+
+/* Cambio de color al pasar el ratón sobre el botón Agregar tarea */
+button#botoncito1:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los elementos dentro de la lista */
+#contenedor1 {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+/* Estilos para el checkbox */
+#miCheckbox {
+    margin-right: 1rem;
+}
+
+/* Estilos para el botón Borrar */
+#botoncito2 {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+/* Cambio de color al pasar el ratón sobre el botón Borrar */
+#botoncito2:hover {
+    background-color: #c82333;
+}
+
+/* Estilos para el texto dentro de la lista */
+#pEnDondeVaElTexto {
+    flex-grow: 1;
+    overflow: hidden;
+    word-wrap: break-word;
+    background-color: white;
+}
+
+
+h1 {
+    color: #007bff; 
+}
+
+.texto-con-linea {
+    text-decoration: line-through;
+}
